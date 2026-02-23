@@ -1,0 +1,8 @@
+package Sesson10.Bai4;
+public interface RemoteControl {
+    void powerOn();
+
+    default void checkBattery() {
+        System.out.println("Pin ổn dịnh");
+    }
+}
