@@ -113,7 +113,7 @@ class TicketSystem {
     }
 }
 
-class gInputAction {
+class InputAction {
     String fieldName;
     String oldValue;
     String newValue;
